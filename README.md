@@ -1,12 +1,13 @@
-# Lesson - {{Enter Title}}
+# Lesson - Introduction to JavaScript
 
 ## Lesson Objectives
 
 By the end of this lesson, students would be able to:
 
-- {{objective 1}}
-- {{objective 2}}
-- {{objective 3}}
+- Tell the difference between `statement` and `expression`.
+- Use `const` and `let` keywords to declare variables.
+- Write expressions with `arithmetic` and `assignment` operators using the basic variable data types: `number`, `string`, `boolean`, `null`, and `undefined`.
+- Write `if` and `switch` conditions using `comparison` and `logical` operators. 
 
 ## Resources
 
@@ -16,23 +17,14 @@ By the end of this lesson, students would be able to:
 
 ## Lesson Plan
 
-> This is a recommended lesson plan. Instructors are free to re-arrange the flow.
-
-Weekday: 
-- 7:30PM to 10PM
-
-Weekend: 
-- 10AM to 12:30PM or 
-- 2PM to 4:30PM
-
 |Duration|Agenda|Delivery Method|Remarks|
 |-|-|-|-|
 |10 mins|Walk-in & Hook|Lecture|Intrigue students' curiosity about today's topic while giving buffer time for students who are late.|
-|30 mins|Part 1| Lecture with Optional Hands-on Activity| This is the only slot instructor may give full 30 mins lecture. This slot may be used to answer questions from previous exit ticket.|
-|30 mins|Part 2| Lecture with Mandatory Hands-on or Group Activity|Instructor must not lecture more than 10 mins|
-|10 mins|Break| |The essence of the lesson must be delivered before this break.|
-|30 mins|Part 3| Lecture with Mandatory Hands-on or Group Activity|Instructor must not lecture more than 10 mins. Draw connections for this part to Part 1 and 2 for better retention.|
-|40 mins|Q&A| Discussion | Group students in pair to share one key learnings of the day. Encourage students to formulate questions and write them down as exit ticket. Instructors may start to answer those questions. Left over questions may be followed up in next lesson.|
+|15 mins|Part 1| Statement vs Expression|
+|45 mins|Part 2| Arithmetic Operator and Data Types with Activity|Allow learners to have time to hands-on code|
+|10 mins|Break| |
+|30 mins|Part 3| Conditional Flow| `if` and `switch`
+|40 mins|Q&A / Start Homework| |
 
 Teaching Principles:
 - Students have limited bandwidth after work. Deliver the most important part of the lesson within the first 1 hour.

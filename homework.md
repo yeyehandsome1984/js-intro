@@ -2,9 +2,11 @@
 
 ## Brief
 
-Refer to [this directory](./src/homework) for homework.
+Attempt homework here:
 
-{{Input instructions on how to complete this assignment}}
+- [Operators](./src/homework/operators.js)
+- [IF Condition](./src/homework/if-condition.js)
+- [SWITCH Condition](./src/homework//switch-condition.js)
 
 ## Submission
 
