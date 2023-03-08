@@ -8,7 +8,7 @@
 const num = 10;
 const str = "10";
 
-if(num === str){ // Change the comparison operator
+if(num == str){ // Change the comparison operator
     console.log("Condition is true!");
 }
 
@@ -27,30 +27,35 @@ if(num === str){ // Change the comparison operator
     - otherwise, console log "Sunny Day"
 */
 
+// Add code here
+const weather = "rainy";
+const temperature = 21;
+
+if(weather === "rainy" && temperature >23){ // This condition will be checked first
+
+    console.log("I am bringing an umbrella");    
+
+}else if(weather === "rainy" && temperature <=23){  // This condition will be checked second
+
+    console.log("I am wearing a raincoat");
+
+}else if(weather === "snowy" ){  // This condition will be checked second
+
+    console.log("I am wearing padded jacket");
+
+}
+else{ // This condition will execute when none conditions above is true
+    
+    console.log("it is sunny date");
+}
 
 // ----- Example: for your observation ----- 
 
-const fruit = "APPLE";
-const juiceIt = true;
-
-if(fruit === "APPLE" && juiceIt){ // This condition will be checked first
-
-    console.log("I am becoming an Apple Juice");    
-
-}else if(juiceIt){  // This condition will be checked second
-
-    console.log("I am becoming any juice");
-
-}else{ // This condition will execute when none conditions above is true
-    
-    console.log("I don't know who I am");
-}
 
 
 // ----- Challenge: for your action -----
 
-const weather = "rainy";
-const temperature = 21;
+
 
 // Add code here
 
