@@ -6,8 +6,8 @@
 
 const x = 10;
 const y = 20;
-y = y + x; // Refactor this expression by using Addition Assignment operator
+y +=  x; // Refactor this expression by using Addition Assignment operator
 
 const a = 30;
 const b = 10;
-b = a - b; // Refactor this expression by using Subtraction Assignment operator
+b -= a ; // Refactor this expression by using Subtraction Assignment operator

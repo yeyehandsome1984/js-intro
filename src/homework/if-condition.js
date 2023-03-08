@@ -73,31 +73,13 @@ else{ // This condition will execute when none conditions above is true
     If your BMI is 30.0 or higher, it falls within the obese range.
 
 */
-
-// ----- Example - for your observation -----
-
-let isTall = false;
-const height = 170; // assuming 170 and above is considered tall
-
-// Example using IF
-
-if(height >= 170)
-    isTall = true;
-else
-    isTall = false;
-
-// Example of Ternary Operator
-
-isTall = height >= 170 ? true : false; // if-else in a single line
-
-
-// ----- Challenge - for your action -----
-
 let isHealthy = false;
 const bmi = 25;
 
-// Refactor the if-else statement to use ternary operator
-if(bmi < 18.5 || bmi > 24.9) 
-    isHealthy = false;
-else
-    isHealthy = true;
+let healthStatus = bmi <= 18.5 ? "under weight" 
+    : bmi <= 24.9 && bmi>18.5 ? 'healthy weight' 
+    : bmi <= 29.9 && bmi>24.9 ? 'overweight'
+    :'obese';
+    
+   isHealthy = healthStatus="healthy weight" ? true :false ;
+   console.log(isHealthy)

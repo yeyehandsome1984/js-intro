@@ -25,12 +25,11 @@ switch(environment){
         console.log("1 server provisioned");
         break;
 
-    case "DEV": // edit this case
+    case "DEV": 
+    default:// edit this case
         console.log("no provision");
         break;
     
-    default:
-        console.log("no provision");
-        break;
+    
 }
 
